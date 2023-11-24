@@ -27,7 +27,7 @@ const descriptionText = import.meta.env.VITE_SITE_DESC;
           <QuoteLeft />
         </Icon>
         <div class="text">
-          <p>{{ descriptionText }}</p>
+          <div v-html="descriptionText"></div>
         </div>
         <Icon size="16">
           <QuoteRight />
