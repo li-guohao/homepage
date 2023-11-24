@@ -44,12 +44,6 @@ export const socialLinks: SocialLink[] = [
         icon: "/images/icon/bgmtv.ico",
         tip: "去 番组计划 看看",
         url: "https://bgm.tv/user/liguohaocn"
-      },
-      {
-        name: "Steam",
-        icon: "/images/icon/steam.ico",
-        tip: "去 Steam 看看",
-        url: "http://steamcommunity.com/id/li-guohao"
       }
       
 ] 
