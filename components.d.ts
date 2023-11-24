@@ -7,13 +7,8 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
-    Background: typeof import('./src/components/Background.vue')['default']
-    ElCard: typeof import('element-plus/es')['ElCard']
-    ElCol: typeof import('element-plus/es')['ElCol']
-    ElRow: typeof import('element-plus/es')['ElRow']
     Footer: typeof import('./src/components/Footer.vue')['default']
     Link: typeof import('./src/components/Link.vue')['default']
-    Links: typeof import('./src/components/Links.vue')['default']
     Profile: typeof import('./src/components/Profile.vue')['default']
     SocialLinks: typeof import('./src/components/SocialLinks.vue')['default']
   }
