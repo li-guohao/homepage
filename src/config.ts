@@ -5,6 +5,11 @@ import { SiteLink, SocialLink } from "./types";
 export const siteLinks: SiteLink[] = [
     {
         icon: Book,
+        name: 'My Blog Site',
+        link: 'https://blog.liguohao.cn/'
+    },
+    {
+        icon: Book,
         name: 'Ikaros Project',
         link: 'https://ikaros.run/'
     },
