@@ -3,11 +3,11 @@ import { SiteLink, SocialLink } from "./types";
 
 // 图标可前往 https://www.xicons.org 自行挑选
 export const siteLinks: SiteLink[] = [
-    {
-        icon: Book,
-        name: 'My Blog Site',
-        link: 'https://blog.liguohao.cn/'
-    },
+    // {
+    //     icon: Book,
+    //     name: 'My Blog Site',
+    //     link: 'https://blog.liguohao.cn/'
+    // },
     {
         icon: Book,
         name: 'Ikaros Project',

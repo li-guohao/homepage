@@ -10,6 +10,7 @@ import Link from "./components/Link.vue";
     <Profile />
     <SocialLinks />
     <Link />
+    <!-- <BangumiProgress /> -->
     <Footer />
   </div>
 </template>
